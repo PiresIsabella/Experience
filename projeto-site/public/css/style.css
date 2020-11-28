@@ -1,0 +1,1092 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap');
+
+
+body {
+ /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DO BODY*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    font-family: 'Spartan', sans-serif;
+}
+html{
+ /*PARA O ONLY PAGE*/
+    scroll-behavior: smooth; 
+}
+
+
+.opacidade {
+    /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DA OPACIDADE QUE ESTARÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â PRESENTE EM TODAS AS PAGINAS*/
+       width: 100%;
+       height: 100%;
+       background-color: rgba(0, 0, 0, 0.322);
+   }
+   
+   .container {
+    /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DO CONTAINER QUE ESTARÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â PRESENTE EM TODAS AS PAGINAS*/
+       width: 85%;
+       margin: auto;
+       height: 100%;
+     
+   }
+
+   /*COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O DO MENU*/
+
+   .menu {
+    /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DO MENU*/
+        background-color: rgba(0, 0, 0, 0.301);
+        width:100%;
+        height: 13.5%;
+        position: fixed;
+        z-index: 10 ;  /*FIXAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DO MENU*/
+    
+    }
+   
+   .dentro-menu {
+    /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DO CONTEUDO DE DENTRO DO MENU QUE ESTARÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â PRESENTE EM TODAS AS PAGINAS*/
+       width: 100% ;
+       height: 10% ;
+    
+   }
+
+
+   #pesquise {
+    /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O INPUT DE PESQUISA*/
+   width: 20% ;
+   height: 26% ;
+   position: absolute;
+   top: 35%;
+   opacity: 0.9;
+  padding: 0;
+  border: 2px;
+  border-radius: 4px
+}
+   
+   #logo {
+   /*LOGO DO SITE*/
+       width: 13.5%;
+   }
+   
+   .login { 
+       width: 10%;
+       height: 100%;
+       float: right;
+   }
+   
+   #imglogin {
+   /*IMAGEM DO LOGIN*/
+       width: 70%;
+       padding-top: 15px;
+   
+   }
+   
+   .header {
+   /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DAS OPÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ES DE MENU*/
+       width: 40%;
+       height: 80%;
+       float: right;
+      
+   }
+   
+   .header li, a {
+       color: white;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 50px;
+ padding-top: 6px;
+       margin-right: 10%;
+       margin-left: 5%;
+      
+       
+   }
+
+   .header a {
+    font-size: 20px;
+
+   }
+
+.botao {
+ /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DO BOTÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O GERAL*/
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    width: 60px;
+    height: 25% ;
+    position: absolute;
+    top: 36%;
+    margin-left: 20.3%;
+    border: 2px;
+    border-radius: 4px
+}
+
+ /*FIM DO MENU*/
+
+ /*COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O DA PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DO INICIO DA SITE*/
+
+#fundo1 {
+/*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DA PRIMEIRA PAGINA*/
+    width: 100%;
+    height: 100%;
+    background: url(../img/Inicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#compressao {
+    /*FORÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡A A CENTRALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DO TEXTO*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+   
+
+#slogan {
+    /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O TEXTO DO SLOGAN*/
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+   
+}
+
+#slogan p {
+    font-size: 40px;
+    margin: 0%;
+
+}
+
+#slogan h3 {
+    font-size: 25px;
+    margin: 1%;
+}
+
+
+/*FIM TELA INICIAL*/
+
+/*COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O TELA DE SOBRE*/
+
+#fundo2 {
+    /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O FUNDO TELA SOBRE*/
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/lalacine.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.sobre {
+    width: 100%;
+    height: 30%; 
+    
+ }
+
+.compressao2 {
+ /*FORÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡A A CENTRALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DOS ELEMENTOS*/
+ width: 100%;
+ /* height: 67.4%; */
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ padding-top: 13%;
+ z-index: 1;
+ }
+
+.sobre p {
+     /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O TEXTO DO SOBRE*/
+    font-size: 43px;
+    margin: 0%;
+
+
+}
+
+.sobre h3 {
+    font-size: 20px;
+    margin: 1%;
+    
+}
+
+.valores{
+     /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O ELEMENTOS DO SOBRE*/
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+.valores p{
+    font-size: 20px;
+    display: flex;
+    margin-left: 67px;
+}
+
+.compressao5 {
+     /*FORÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡A A CENTRALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DOS ELEMENTOS*/
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+ /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DE IMAGENS*/
+#oculos {
+    height: 200px;
+   
+}
+
+  
+#pessoas {
+    height: 200px;
+  
+}
+
+#cinema {
+    height: 200px;
+    
+    
+}
+  
+ /*FIM TELA SOBRE*/
+
+  /*COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O TELA DE ESCOLHA*/
+
+#fundo3 {
+     /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O IMAGEM DE FUNDO*/
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/143652.jpg-r_1920_1080-f_jpg-q_x-xxyxx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  
+}
+
+.prev {
+    left: 2%;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text1 {
+    
+    font-size: 20px;
+    bottom: 600px;
+    position: relative;
+    bottom: 8px;
+   
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    margin-left: 368px;
+
+}
+
+.text2 {
+    
+    font-size: 20px;
+    bottom: 600px;
+    position: relative;
+    bottom: 8px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 328px;
+    display: flex;
+  
+  }
+
+  .text3 {
+  
+    font-size: 20px;
+    bottom: 600px;
+    position: relative;
+    bottom: 8px;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    margin-left: 428px;
+  
+  }
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-right: 50px;
+}
+
+.slideshow-container p {
+    font-size: 30px;
+    /* margin-bottom: -27px; */
+    margin-top: -46px;
+    padding-bottom: -39px;
+    padding-top: -40px;
+    /* margin-left: -16px; */
+    margin-right: 56px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+ /*FIM TELA SOBRE*/
+
+   /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O TEXTO DAS SINOPSES DOS RELATOS*/
+
+ .sinopse  {
+   width: 100%;
+   height: 30%;
+   margin-top: 5%;  
+}
+
+.sinopse p {
+   font-size: 50px;
+   margin: 0%;
+
+}
+
+.sinopse h2 {
+  font-size: 18px;
+  margin-top: 1%;
+ 
+}
+
+.sinopse h3 {
+   font-size: 13px;
+   margin-top: 1%;
+}
+.sinopse a {
+    font-size: 27px;
+    /* margin-top: 1%; */
+    float: right;
+    background-color: rgba(0, 0, 0, 0.527);
+    border: 2px;
+    border-radius: 4px;
+ }
+
+
+
+
+
+
+ /*COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O RELATOS SOBRE A VIAGEM DE CHIHIRO*/
+
+#fundo4 {
+     /*IMAGEM DE FUNDO*/
+    width: 100%;
+    height: 100%;
+    background: url(../img/chihiro1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.compressao6 {
+     /*FORÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡A A CENTRALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DO TEXTO*/
+    width: 100%;
+    height: 77.4%; 
+    display: flex;
+    padding-top: 80px;
+    z-index: 1;
+
+}
+
+#fundo5 {
+    /*SEGUNDA TELA DOS RELATOS DA A VIAGEM DE CHIHIRO*/
+  width: 100%;
+  height: 100%;
+  background: url(../img/chihiro2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*FIM DAS PAGINAS DE A VIAGEM DE CHIHIRO*/
+
+
+
+
+
+   /*COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O PAGINAS DE ERA UMA VEZ EM HOOLLYWOOD*/
+
+ #fundo6 {
+      /*FUNDO DA PRIMEIRA TELA*/
+    width: 100%;
+    height: 100%;
+    background: url(../img/eraumavez.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ 
+#fundo7 {
+     /*SEGUNDA TELA DE ERA UMA VEZ EM HOOLLYWOOD*/
+    width: 100%;
+    height: 100%;
+    background: url(../img/eraumavez2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ /*FIM PAGINAS DE ERA UMA VEZ EM HOOLLYWOOD*/
+
+ /*COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O PAGINAS DE BACURAU*/
+
+#fundo8 {
+    /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DO FUNDO DA PRIMEIRA TELA*/
+    width: 100%;
+    height: 100%;
+    background: url(../img/bacurau.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+ #fundo9 {
+ /*SEGUNDA TELA DE BACURAU*/    
+    width: 100%;
+    height: 100%;
+    background: url(../img/bacurau2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*FIM DAS PAGINAS SOBRE BACURAU*/
+
+
+ /*COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O DOS TEXTOS DOS RELATOS*/
+
+ /*DEIXAR O TEXTO DOS RELATOS ESCONDIDO*/
+.texto-1 {
+    display: none;
+ }   
+
+ /*CLASSE PARA TODOS OS RELATOS*/
+ .relatos {
+    width: 100%;
+    justify-content: center;
+    overflow: auto;
+    float: left;
+    text-align: center;
+    
+}
+
+.relato-1 {
+    /*PERSONALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DOS TEXTOS DOS RELATOS*/
+  background-color: rgba(0, 0, 0, 0.445);
+  height: 100px;
+  width: 200px;
+  float: left;
+  margin-top: 200px;
+  border: 2px;
+    border-radius: 4px;
+
+}
+
+.relato-1:hover {
+  background-color:  rgba(0, 0, 0, 0.445);
+  height: 400px;
+  width: 300px;
+  border: 2px;
+    border-radius: 4px;
+
+}
+
+.relato-1:hover .texto-1 {
+  display: block;
+}
+
+
+.relato-1 .texto-1 p {
+  font-size: 15px;
+padding-right: 5px;
+text-align: center;
+padding-top: 20px;
+}
+
+.relato-1 h1 { 
+  font-size: 18px;
+ text-align: center;
+ padding-top: 5px;
+}
+
+.relato-1 p { 
+  font-size: 15px;
+  text-align: center;
+  
+}
+
+
+.relato-2:hover {
+    background-color:  rgba(0, 0, 0, 0.445);
+    height: 400px;
+    width: 300px;
+    border: 2px;
+    border-radius: 4px;
+
+}
+
+.relato-2:hover .texto-1 {
+    display: block;
+    border: 2px;
+    border-radius: 4px;
+}
+
+.relato-2 .texto-1 p {
+    font-size: 15px;
+   text-align: center;
+   padding-top: 20px;
+  
+
+}
+
+.relato-2 h1 { 
+    font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+
+.relato-2 p { 
+    font-size: 15px;
+  text-align: center;
+}
+
+.relato-2 {
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 100px;
+    width: 200px;
+    float: right;
+    margin-top: 200px;
+    border: 2px;
+    border-radius: 4px;
+}
+
+
+.relato-3:hover .texto-1 {
+    display: block;
+}
+
+.relato-3:hover {
+    background-color:  rgba(0, 0, 0, 0.445);
+    height: 400px;
+    width: 300px;
+    border: 2px;
+    border-radius: 4px;
+
+}
+
+.relato-3 h1 { 
+    font-size: 18px;
+   text-align: center;
+   padding-top: 5px;
+}
+
+.relato-3 p { 
+    font-size: 15px;
+  text-align: center;
+}
+
+.relato-3 {
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-left: 280px;
+    margin-top: 200px;
+    border: 2px;
+    border-radius: 4px;
+ 
+}
+
+
+.relato-3 .texto-1 p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*FIM DOS TEXTOS DOS RELATOS*/
+
+
+/*COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O DA TELA DE LOGIN*/
+
+#fundo-login {
+    /*FUNDO DA TELA*/
+    width: 100%;
+    height: 100%;
+    background: url(../img/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.campos-paginalogin{
+    /*INPUT DO LOGIN*/
+    width: 100%;
+    height: 30%;
+
+
+}
+
+
+.compressao3{
+    /*FORÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ANDO OS ELEMENTOS A FICAREM NO CENTRO*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 15%;
+
+}
+
+
+/*CAMPOS DE INPUT*/
+.input-login {
+    width: 22%;
+    height: 30px;
+    opacity: 0.7;
+    border: 2px;
+    border-radius: 4px;
+    /* float: right; */
+   
+}
+.input-senha {
+    width: 22%;
+    height: 30px;
+    opacity: 0.7;
+    border: 2px;
+    border-radius: 4px;
+}
+
+
+
+.campos-paginalogin a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    list-style: none;
+    /* display: flex; */
+    margin-left: 470px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top: 18px;
+    display: flex;
+}
+
+
+
+.campos-paginalogin h1 {
+    margin: 0;
+    margin-right: 16.5%;
+    font-size: 20px;
+    margin-bottom: 6px;
+    margin-top: 16px;
+}
+
+.campos-paginalogin h2 {
+    margin: 0;
+    margin-right: 16.5%;
+    font-size: 18px;
+    margin-top: 23px;
+}
+   
+
+
+.campos-paginalogin h3 {
+    font-size: 39px;
+    margin-top: 20px;
+    /* margin: 0; */
+    margin-bottom: 0
+}
+
+
+
+#btn_entrar {
+    /*BOTÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DE ENTRADA*/
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    width: 76px;
+    height: 24px;
+    align-items: flex-end;
+    border: 2px;
+    border-radius: 4px;
+   
+
+}
+
+/*FIM DA TELA DE LOGIN*/
+
+/*COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O TELA DE CADASTRO*/
+
+#fundo-cadastro {
+    /*IMAGEM DE FUNDI*/
+    width: 100%;
+    height: 100%;
+    background: url(../img/cadastro1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.input-cadastro1 {
+    height: 36px;
+    width: 250px;
+    opacity: 0.7;
+    border: 2px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.input-cadastro2 {
+    height: 36px;
+    width: 250px;
+    opacity: 0.7;
+    border: 2px;
+    border-radius: 4px;
+}
+
+.campos-cadastro {
+      /*INPUT*/
+      width: 100%;
+      height: 90%;
+}
+
+.pai-campos {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.labelForm1 label {
+margin-top: 10px;
+text-align: center;
+
+}
+
+.labelForm2 label {
+    margin-top: 10px;
+    font-size: 18px;
+    
+  }
+
+.campos-cadastro p {
+  font-size:20px; 
+ margin-left: 50%;
+ 
+
+}
+
+.labelForm1{
+    height: 80%;
+    width: 20%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 100px;
+    /* z-index: 0; */
+    margin-right: 185px;
+    margin-top: 350px;
+}
+
+
+
+
+
+
+.labelForm1 p {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 17px;
+    /* margin-top: 113px; */
+    position: absolute;
+    /* margin-bottom: 143px; */
+    margin-top: -54px;
+    margin-right: 78px;
+}
+
+#btn_cadastrar {
+    /*BOTÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DE CADASTRO */
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    width: 80px;
+    height: 30px;
+   border: 2px;
+   border-radius: 4px;
+   margin-top: 22px;
+   margin-left: 82px;
+  
+}
+
+/*FIM TELA DE CADASTRO*/
+
+/* COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O DO FOOTER */
+
+.footer {
+    background-color: black;
+    height: 50px;
+}
+
+.footer h4 {
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+   font-weight: 400;
+   font-size: 13px;
+}
+
+/*  COMEÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡O DA PAGINA DO USUARIO*/
+
+#fundo-usuario {
+    width: 100%;
+    height: 100%;
+    background: url(../img/achegada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.compressao-usuario{
+    /*FORÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ANDO A CENTRALIZAÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢O DOS ELEMENTOS*/
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   padding-top: 18%;
+
+}
+
+.campos-relatos1 {
+    /*INPUT*/
+  width: 100%;
+  height: 30%;
+  
+
+}
+
+
+#titulo {
+    position: absolute;
+    width: 277px;
+    height: 43px;
+    opacity: 0.7;
+    margin-top: -24%;
+    /* margin-right: 218px; */
+    margin-bottom: -16px;
+    margin-left: 203px;
+    border: 2px;
+    border-radius: 4px;
+}
+
+.escreva {
+    width: 497px;
+    height: 239px;
+    opacity: 0.7;
+    margin-left: 465px;
+    border: 2px;
+    border-radius: 4px;
+}
+
+ 
+
+#botao-enviar {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border: 2px;
+    border-radius: 4px;
+    margin-left: 186px;
+    /* display: flex; */
+    position: absolute;
+}
+
+.campos-relatos1 p {
+    font-size: 30px;
+    margin-top: -206px;
+    margin-left: 256px;
+    /* position: absolute; */
+}
+
+#combo-generos {
+    width: 171px;
+    height: 42px;
+    opacity: 0.7;
+    margin-top: 4%;
+    /* margin-right: 227px; */
+    margin-left: 559px;
+    margin-bottom: 24px;
+    color: rgb(82, 82, 82);
+    border: 2px;
+    border-radius: 4px;
+}
+
+ 
+
+ .campos-relatos1 h1 {
+    font-size: 32px;
+    /* margin-right: 633px; */
+    margin-bottom: 46px;
+    margin-top: -51px;
+    position: absolute;
+    margin-left: 40px;
+ }
+
+ .campos-relatos1 h2 {
+     font-size: 17px;
+     margin-left: 42px;
+     margin-right: 832px;
+     display: flex;
+     /* margin-bottom: -25px; */
+     margin-top: -64px;
+ }
+
+ .campos-relatos1 h3 {
+    font-size: 17px;
+    margin-left: 42px;
+    margin-right: 832px;
+    display: flex;
+    /* margin-bottom: -25px; */
+  
+}
+
+.campos-relatos1 h4 {
+    font-size: 17px;
+    margin-left: 42px;
+    margin-right: 832px;
+    display: flex;
+    margin-bottom: -25px;
+}
+
+.campos-relatos1 a {
+    font-size: 17px;
+    margin-left: 42px;
+    margin-right: 1071px;
+    /* display: flex; */
+    margin-bottom: -25px;
+    margin-top: 39px;
+    /* position: absolute; */
+}
+
+.indica a {
+    font-size: 17px;
+    margin-left: 42px;
+    margin-right: 832px;
+    display: flex;
+    position: absolute;
+}
+
+/* FIM AREA DO USUARIO */
+
+/*COMEÇO INDICAÇÕES*/
+
+#fundo12 {
+    width: 100%;
+    height: 100%;
+    background: url(../img/babydrive.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

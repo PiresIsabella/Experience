@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/Inicio__1_-removebg-preview.png" type="image/x-ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/autenticar.js"></script>
+    <title> Experience </title>
+
+</head>
+
+<body onload="verificar_autenticacao()">
+    <!--COMEÇO DA PAGINA DO USUARIO -->
+    <div id="fundo-usuario">
+        <div class="opacidade">
+            <div class="menu">
+                <div class="container">
+                    <div class="dentro-menu">
+                        <img id="logo" src="img/Inicio__3_-removebg-preview.png" alt="">
+
+                        <input id="pesquise" placeholder="Pesquise aqui">
+                        <button class="botao">Buscar</button>
+
+                        <div class="login">
+                            <a href="login.html"><img id="imglogin" src="img/usuario.png" alt=""></a>
+
+                        </div>
+
+                        <div class="header">
+                            <li> <a href="index.html#fundo1">Inicio</a></li>
+                            <li> <a href="index.html#fundo2">Sobre</a></li>
+                            <li> <a href="index.html#fundo3">Relatos</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="compressao-usuario">
+                <div class="container">
+                    <div class="campos-relatos1">
+                        <h1>Bem vindo, <b id="b_usuario"></b></h1>
+                        <h2>Meus Relatos </h2>
+                        <h3>Favoritos </h3>
+                        <h4>Editar perfil</h4>
+                        <a class="indica" href="indicações.html">Indicações</a>
+                        <a onclick="logoff()">Sair</a>
+
+
+                        <P>Escreva seu relato</P>
+
+                        <select onchange="filmes()" id="combo-generos" style="display: block;">
+
+                            <option value="Escolha um filme">-Escolha um filme-</option>
+                            <option value=">A viagem de Chihiro">A viagem de Chihiro</option>
+                            <option value="Era uma vez em Hoollywood">Era uma vez em Hoollywood</option>
+                            <option value="Bacurau">Bacurau</option>
+                           
+
+                        </select>
+
+
+                      
+
+                        <input class="escreva" placeholder="Escreva seu relato"> <br> <br>
+                        <button id="botao-enviar">Enviar</button>
+
+
+                        <input id="titulo" placeholder="Titúlo">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIM DA PAGINA DO USUARIO -->
+
+        <!--FOOTER-->
+
+        <div class="footer">
+            <div class="container">
+                <h4>Feito com carinho por um dev Bandtec &copy; 2020 </h4>
+            </div>
+        </div>
+
+        <!--FIM FOOTER-->
+
+</body>
+
+</html>
+<script>
+
+
+</script>

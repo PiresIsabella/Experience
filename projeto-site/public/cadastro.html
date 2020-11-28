@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/Inicio__1_-removebg-preview.png" type="image/x-ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/cadastrar.js"></script>
+    <title> Experience </title>
+
+</head>
+
+<body>
+    <!--COMEÇO DA PAGINA INICIAL -->
+    <div id="fundo-cadastro">
+        <div class="opacidade">
+            <div class="menu">
+                <div class="container">
+                    <div class="dentro-menu">
+                        <img id="logo" src="img/Inicio__3_-removebg-preview.png" alt="">
+
+                        <input id="pesquise" placeholder="Pesquise aqui">
+                        <button class="botao">Buscar</button>
+
+                        <div class="login">
+                            <a href="login.html"><img id="imglogin" src="img/usuario.png" alt=""></a>
+                        </div>
+
+                        <div class="header">
+                            <li> <a href="index.html#fundo1">Inicio</a></li>
+                            <li> <a href="index.html#fundo2">Sobre</a></li>
+                            <li> <a href="index.html#fundo3">Relatos</a></li>
+                        </div>
+                    </div>
+
+                    <div class="campos-cadastro">
+                        <div class="pai-campos">
+
+                            <div class="labelForm1">
+                                <p>Cadastro</p> <br>
+                                <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
+                                    <label for="nome">Nome Completo</label>
+                                        <input type="text" name="nome" class="input-cadastro1" autofocus="autofocus" placeholder="Digite seu nome completo"  required minlength="4">
+                                    <label for="login">Login</label>
+                                        <input type="text" name="login" class="input-cadastro1" placeholder="Digite seu login"  required minlength="4">
+                                    <label for="senha">Senha</label>
+                                        <input type="password" name="senha" class="input-cadastro1" placeholder="Digite sua senha"  required minlength="4">    
+                                    <label class="campos2">Data de nascimento </label>
+                                        <input type="date" name="dataNascimento" class="input-cadastro2" placeholder="Digite sua data de nascimento" required>
+                                    
+                                    <input type="submit" id="btn_cadastrar" value="Cadastrar" class="btn">
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+
+        <div class="footer">
+            <div class="container">
+                <h4>Feito com carinho por um dev Bandtec &copy; 2020 </h4>
+            </div>
+        </div>
+
+        <!--FIM FOOTER-->
+
+
+</body>
+
+</html>

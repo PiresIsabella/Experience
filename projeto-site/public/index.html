@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/img/Inicio__1_-removebg-preview.png" type="image/x-ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Experience </title>
+
+</head>
+
+<body>
+    <!--COMEÇO DA PAGINA INICIAL -->
+    <div id="fundo1">
+        <div class="opacidade">
+            <div class="menu">
+                <div class="container">
+                    <div class="dentro-menu">
+
+                        <img id="logo" src="/img/Inicio__3_-removebg-preview.png" alt="">
+
+                        <input id="pesquise" placeholder="Pesquise aqui">
+                        <button class="botao">Buscar</button>
+
+                        <div class="login">
+                            <a href="login.html"><img id="imglogin" src="img/usuario.png" alt=""></a>
+                        </div>
+
+
+                        <div class="header">
+                            <li> <a href="#fundo1">Inicio</a></li>
+                            <li> <a href="#fundo2">Sobre</a></li>
+                            <li> <a href="#fundo3">Relatos</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="compressao">
+                <div id="slogan">
+                    <p>Sua visão de mundo moldando a obra,</P>
+                    <p> enquanto a obra molda sua visão de mundo</p>
+                    <h3>Compartilhando diferentes olhares a partir de um mesmo filme </h3>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIM DA PAGINA INCIAL -->
+
+    <!--COMEÇO DO SOBRE-->
+    <div id="fundo2">
+        <div class="opacidade">
+            <div class="container">
+                <div class="compressao2">
+                    <div class="dentro-menu">
+                        <div class="sobre">
+                            <p>O que é o Experience?</p> <br>
+                            <h3>O intuito do projeto Experience é promover a troca de experiências através do
+                                encontro de
+                                pessoas onde os diferentes olhares possam ser compartilhados.
+                                Uma pessoa conta o que viu a partir do seu ponto de vista e nossos lugares da
+                                sociedade se
+                                alteram de acordo com a vivencia,
+                                por isso o mesmo o mesmo filme não pode ser visto da mesma maneira por dois
+                                individuos
+                                distintos.</h3>
+
+
+                            <div class="valores">
+                                <div class="compressao5">
+                                    <img id="oculos" src="img/oculos.png" alt="">
+                                    <p>Diferentes olhares</p>
+                                </div>
+                                <div class="compressao5">
+                                    <img id="pessoas" src="img/pessoas.png" alt="">
+                                    <p>Encontro de pessoas</p>
+                                </div>
+                                <div class="compressao5">
+                                    <img id="cinema" src="img/cinema.png" alt="">
+                                    <p>Troca de experiências</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FIM DO SOBRE-->
+
+    <!--COMEÇO DA ESCOLHA DE FILMES -->
+    <div id="fundo3">
+        <div class="opacidade">
+            <div class="container">
+                <div class="compressao2">
+                    <div class="dentro-menu">
+
+                        <div class="slideshow-container">
+                            <p>Escolha um filme</p>
+                            <div class="mySlides fade">
+                                <div class="numbertext">1 / 3</div>
+                                <a href="chihiro.html"><img src="img/capachihiro.jpg" style="width:45%"> </a>
+                                <div class="text1">A viagem de Chihiro</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">2 / 3</div>
+                                <a href="eraumavez.html"> <img src="img/capaeraumavez.jpg" style="width:29%"> </a>
+                                <div class="text2">Era uma vez em Hollywood</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 3</div>
+                                <a href="bacurau1.html"> <img src="img/capabacurau (1).jpg" style="width:34%"> </a>
+                                <div class="text3">Bacurau</div>
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        </div>
+                        <br>
+
+                        <div>
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--FIM DA ESCOLHA DE FILMES -->
+
+    <div class="mapa">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14628.180982484571!2d-46.66087895283409!3d-23.566818423600797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c872682a63%3A0xeddb08caf1ea81ec!2sCinemark%20Shopping%20Cidade%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1605533609336!5m2!1spt-BR!2sbr"
+            width="1340" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+
+    </div>
+
+    <!--FOOTER-->
+
+    <div class="footer">
+        <div class="container">
+            <h4>Feito com carinho por um dev Bandtec &copy; 2020 </h4>
+        </div>
+    </div>
+
+    <!--FIM FOOTER-->
+
+</body>
+
+</html>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
