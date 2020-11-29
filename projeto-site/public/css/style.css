@@ -1110,5 +1110,21 @@ text-align: center;
     border: 2px;
     border-radius: 4px;
     font-size: 16px;
-    margin-left: 402px;
+    margin-left: 388px;
+    margin-bottom: 19px;
+    float: left;
+    position: absolute;
+    align-items: center;
+    /* margin-bottom: -11px; */
+    margin-top: -32px;
 }
+ #compressao-lado {
+     width: 100%;
+    
+ }
+
+ #msg {
+    float: right;
+    margin-right: 380px;
+ }
+
